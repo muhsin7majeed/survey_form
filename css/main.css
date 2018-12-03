@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+html,
+body {
+  font-family: Open sans, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  color: #393939;
+}
+
+.wrapper {
+  background-color: #e7dddd;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.bg {
+  background-image: url(../images/accounting-achievement-aerial-1043506.jpg);
+  background-size: cover;
+  margin: 0;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-top: 25%;
+}
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.about {
+  position: fixed;
+  top: 0;
+  right: 16%;
+  background-color: rgb(25, 25, 26);
+  width: 200px;
+  height: 25px;
+  padding: 2px 0px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  cursor: pointer;
+
+}
+
+.about h1,
+.aboutme h1 {
+  font-size: 14px;
+  padding: 0;
+  margin: 2px auto;
+  color: #e7dddd;
+  cursor: pointer;
+}
+
+.about p,
+.aboutme p {
+  font-size: 14px;
+  color: #e6e4e4;
+}
+
+.aboutme a {
+  color: white;
+}
+
+.about a {
+  color: rgb(149, 255, 145);
+}
+
+.hide hr {
+  width: 50%;
+  margin: 4px auto 4px auto;
+}
+
+.hide {
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  position: absolute;
+  top: -120px;
+  transition: .3s;
+}
+
+.aboutme {
+  position: fixed;
+  top: 0;
+  left: 16%;
+  background-color: rgb(25, 25, 26);
+  width: 200px;
+  height: 25px;
+  padding: 2px 0px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.about:hover .hide {
+  height: auto;
+  padding: 10px;
+  background-color: rgb(25, 25, 26);
+  transition: .3s;
+  top: 0;
+}
+
+.hideaboutme {
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  position: absolute;
+  top: -120px;
+  width: 200px;
+  transition: .3s;
+}
+
+#social a {
+  padding: 5px;
+}
+
+.aboutme:hover .hideaboutme {
+  height: auto;
+  width: 200px;
+  background-color: rgb(25, 25, 26);
+  transition: .3s;
+  top: 0;
+}
+
+
+
+#title {
+  font-size: 32px;
+  color: rgb(25, 25, 26);
+  margin: 20px;
+  padding-top: 30px;
+}
+
+#title span {
+  font-size: 42px;
+  color: rgb(25, 25, 26);
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.righttab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 20px;
+  padding: 5px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(247, 243, 243);
+  border-radius: 4px;
+
+}
+
+.rec,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+#submit {
+  background-color: rgb(25, 25, 26);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  border-radius: 9px;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: none;
+  outline: none;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 4px;
+}
+
+.radio,
+.preferences {
+  position: relative;
+  left: -43px;
+  display: block;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+
+.smallsection {
+  background-color: white;
+  margin: auto auto;
+  border-radius: 14px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section1 {
+  background-color: white;
+  margin: auto auto;
+  border-radius: 14px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  margin: 30px auto;
+}
+
+.section2 {
+  background-color: white;
+  margin: auto auto;
+  border-radius: 14px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  margin: 30px auto;
+}
+
+.section3 {
+  background-color: white;
+  margin: auto auto;
+  border-radius: 14px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  margin: 30px auto;
+}
+
+.section4 {
+  background-color: white;
+  margin: auto auto;
+  border-radius: 14px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  margin: 30px auto;
+}
+
+#suggestion {
+  max-width: 80%;
+  height: 80px;
+  max-height: 130px;
+}
+
+/* media queries */
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+
+  .about,
+  .hide,
+  .aboutme,
+  .hideaboutme {
+    display: none;
+  }
+
+  .section {
+    height: 470px;
+  }
+
+  .righttab {
+    width: 80%;
+    float: left;
+  }
+
+  .input-field {
+    width: 100%;
+  }
+
+  #suggestion {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  select {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .section1,
+  .section2,
+  .section3,
+  .section4 {
+    height: 560px;
+  }
+}
